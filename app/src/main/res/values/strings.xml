@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myCrashHandler</string>
+    <string name="str_click1">你瞅啥</string>
+    <string name="str_click2">瞅你咋滴</string>
+    <string name="str_click3">再瞅一个试试</string>
+    <string name="str_click4">试试就试试</string>
+</resources>
