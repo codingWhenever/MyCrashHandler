@@ -1,0 +1,10 @@
+# MyCrashHandler
+使用CrashHandler来获取应用的crash信息
+
+1.首先需要实现一个UncaughtExceptionHandler对象，在它的uncaughtException方法中获取异常信息并将其存储在SD卡中或者回传给服务器开发人员进而进行分析，然后调用Thread的setDefaultUncaughtExceptionHandler方法将其设置为线程默认的异常处理器。
+  在应用崩溃的时候，将异常信息以及设备厂商和运营商，系统版本和网络sim卡类型等信息一同写入sd卡内，接着异常交给系统处理，系统会终止程序。
+
+2.在你的application中进行初始化;
+
+3.模拟crash情景;
+
